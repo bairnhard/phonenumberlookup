@@ -34,7 +34,7 @@ func getnumber(number *gin.Context) {
 		returntype = "Fixed Line"
 	case libphonenumber.MOBILE:
 		returntype = "Mobile"
-	case 2:
+	case libphonenumber.FIXED_LINE_OR_MOBILE:
 		returntype = "Fixed Line or Mobile"
 	case 3:
 		returntype = "Toll Free"
